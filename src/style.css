@@ -1,0 +1,151 @@
+body {
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(155, 31, 72) 0%,
+    rgb(138, 38, 71) 15.9%,
+    rgb(138, 38, 71) 15.9%,
+    rgb(229, 160, 183) 24.4%,
+    rgb(53, 94, 88) 24.5%,
+    rgb(6, 17, 15) 90%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #1d1b1b;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+  margin: 0;
+}
+ul {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+li {
+  color: #212121;
+  font-size: 11px;
+  font-weight: lighter;
+  line-height: 15px;
+  list-style: none;
+}
+p {
+  color: #212121;
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 29px;
+}
+a {
+  text-decoration: none;
+}
+.search-button {
+  background-color: white;
+  border: 1px solid #212121;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px rgb(177, 177, 177);
+  padding: 5px;
+  margin: 0 0 20px 0;
+}
+.submit-button {
+  background-color: rgb(155, 31, 72);
+  border: 1px solid #212121;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px rgb(177, 177, 177);
+  color: white;
+  font-weight: 400;
+  padding: 5px;
+  margin: 0 0 20px 0;
+  transition: all 150ms ease-in-out;
+}
+.submit-button:hover {
+  background-color: rgb(128, 22, 57);
+  color: white;
+}
+.locationBtn {
+  color: white;
+  background-color: rgb(53, 94, 88);
+  border: 1px solid #212121;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px rgb(177, 177, 177);
+  color: white;
+  font-weight: lighter;
+  padding: 5px;
+  margin: 0 0 20px 0;
+  transition: all 150ms ease-in-out;
+}
+.locationBtn:hover {
+  background-color: rgb(39, 70, 65);
+  color: white;
+}
+.input {
+  text-align: center;
+}
+.container {
+  background: rgb(229, 245, 242);
+  border: 1px solid #212121;
+  border-radius: 7px;
+  box-shadow: 1px 1px 10px rgba(229, 245, 242, 0.6);
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px 30px 20px 30px;
+}
+.icon-big {
+  color: rgb(155, 31, 72);
+  display: inline-block;
+  font-size: 120px;
+  margin: 0 0 35px 0;
+  text-align: center;
+}
+.temp {
+  color: #1d1b1b;
+  font-size: 59px;
+  font-weight: 600;
+  line-height: 1;
+  position: relative;
+  bottom: -70px;
+  left: 9px;
+}
+.degrees {
+  font-size: 11px;
+  font-weight: bold;
+  position: relative;
+  bottom: -37px;
+  left: 10px;
+}
+.weather-description {
+  position: relative;
+  bottom: -65px;
+}
+.weather-current {
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.bottom-days {
+  text-align: center;
+}
+.button {
+  background-color: rgb(155, 31, 72);
+  border: 1px solid #212121;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px rgb(177, 177, 177);
+  color: white;
+  font-weight: 400;
+  max-width: 150px;
+  margin: 20px 0 10px 0;
+  padding: 5px 30px;
+  transition: all 150ms ease-in-out;
+}
+.button:hover {
+  background-color: rgb(128, 22, 57);
+  color: white;
+}
+.bottom-icons {
+  color: rgb(155, 31, 72);
+  font-size: 50px;
+  text-align: center;
+}
+.bottom-temp {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  top: -5px;
+}
